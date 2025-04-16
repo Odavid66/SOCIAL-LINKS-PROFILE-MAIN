@@ -1,0 +1,98 @@
+@font-face{
+    font-family: Inter;
+    font-style: normal;
+    src:url("assets//fonts//Inter-VariableFont_slnt,wght.ttf") format('ttf')
+    
+
+}
+*{
+    align-items: center;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    margin: 0px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    position: relative;
+}
+
+.mainbox{
+    background-color:hsl(0, 0%, 12%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25em;
+    height: 50%;
+    padding: 2rem;
+    border-radius: 10px;
+
+
+}
+
+img{
+     border-radius: 50px;
+     height: 80px;
+     margin-bottom: 1.5em;
+     margin-top: 1em;
+    
+}
+
+.subbox{
+    align-self: center;
+    margin-top: 1.2em;
+}
+
+.botto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    height: 3em;
+    width: 20em;
+    background-color:hsl(0, 0%, 20%) ;
+    border-radius: 8px;
+    border: none;
+    font-family: Inter;
+    font-weight: 600;
+    opacity: 90%;
+    
+}
+
+.botto:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+    cursor: pointer;
+       
+}
+
+.name{
+    font-family: Inter;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+    font-size: 25px;
+}
+
+.place{
+    font-weight: 600;
+    margin-bottom: 1.8em;
+    opacity: 70%;
+}
+
+.hobby{
+    font-weight: 400;
+}
+
+footer{
+    position: absolute;
+    bottom:0;
+    
+}
